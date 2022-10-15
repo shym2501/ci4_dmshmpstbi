@@ -7,18 +7,18 @@
       <meta name="robots" content="noindex, nofollow">
       <meta content="" name="description">
       <meta content="" name="keywords">
-      <link href="<?= base_url('assets/');?>img/favicon.png" rel="icon">
-      <link href="<?= base_url('assets/');?>img/apple-touch-icon.png" rel="apple-touch-icon">
+      <link href="/assets/img/favicon.png" rel="icon">
+      <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
       <link href="https://fonts.gstatic.com" rel="preconnect">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-      <link href="<?= base_url('assets/'); ?>css/bootstrap.min.css" rel="stylesheet">
-      <link href="<?= base_url('assets/');?>css/bootstrap-icons.css" rel="stylesheet">
-      <link href="<?= base_url('assets/');?>css/boxicons.min.css" rel="stylesheet">
-      <link href="<?= base_url('assets/'); ?>css/quill.snow.css" rel="stylesheet">
-      <link href="<?= base_url('assets/'); ?>css/quill.bubble.css" rel="stylesheet">
+      <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/assets/css/bootstrap-icons.css" rel="stylesheet">
+      <link href="/assets/css/boxicons.min.css" rel="stylesheet">
+      <link href="/assets/css/quill.snow.css" rel="stylesheet">
+      <link href="/assets/css/quill.bubble.css" rel="stylesheet">
       <link href="assets/css/remixicon.css" rel="stylesheet">
-      <link href="<?= base_url('assets/'); ?>css/simple-datatables.css" rel="stylesheet">
-      <link href="<?= base_url('assets/'); ?>css/style.css" rel="stylesheet">
+      <link href="/assets/css/simple-datatables.css" rel="stylesheet">
+      <link href="/assets/css/style.css" rel="stylesheet">
    </head>
    <body>
       <header id="header" class="header fixed-top d-flex align-items-center">
@@ -133,7 +133,7 @@
                   </ul>
                </li>
                <li class="nav-item dropdown pe-3">
-                  <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown"> <img src="<?= base_url('assets/');?>img/profile-img.jpg" alt="Profile" class="rounded-circle"> <span class="d-none d-md-block dropdown-toggle ps-2">Jassa</span> </a>
+                  <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown"> <img src="/assets/img/profile-img.jpg" alt="Profile" class="rounded-circle"> <span class="d-none d-md-block dropdown-toggle ps-2">Jassa</span> </a>
                   <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                      <li class="dropdown-header">
                         <h6>Jassa</h6>

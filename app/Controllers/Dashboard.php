@@ -1,15 +1,16 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller {
+namespace App\Controllers;
 
-	public function index()
-	{
-    $data['title'] = 'Dashboard';
-    
-    $this->load->view('templates/header', $data);
-    $this->load->view('templates/sidebar', $data);
-    $this->load->view('dashboard/index', $data);
-		$this->load->view('templates/footer');
-	}
+class Dashboard extends BaseController
+{
+    public function index()
+    {
+        $data['title'] = 'Dashboard';
+        
+        echo view('templates/header', $data);
+        echo view('templates/sidebar', $data);
+        echo view('dashboard/index', $data);
+    		echo view('templates/footer');
+    }
 }
